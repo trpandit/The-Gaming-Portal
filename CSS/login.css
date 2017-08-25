@@ -1,0 +1,151 @@
+body {
+    background: #333 url("bg.png");
+    background-size: 00px 00px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    padding: 0;
+    position: relative;
+}
+
+img {
+    margin-top: 0px;
+    margin-left: 700px;
+}
+
+.container {
+    margin: 25px auto;
+    width: 900px;
+    position: relative;
+}
+
+#content {
+    width: 400px;
+    height: 400px;
+    margin-left: 200px;
+    padding: 25px 0 0;
+    background: #eef;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 1px 0 #fff inset;
+    padding: 25px 0 0;
+    border: 1px solid #c4c6ca;
+}
+
+#content:before,
+#content:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #b3ffff;
+    border: 1px solid #c4c6ca;
+    box-shadow: 0 1px 0 #fff inset;
+    left: -1px;
+    top: 0;
+}
+
+#content:before {
+    transform: rotate(3deg);
+    z-index: -1;
+}
+
+#content:after {
+    transform: rotate(-3deg);
+    z-index: -2;
+}
+
+#content h1 {
+    font-family: sans-serif, Arial;
+    font-size: 25px;
+    color: grey;
+    font-weight: bold;
+    letter-spacing: -0.05em;
+}
+
+#content h1:before,
+#content h1:after {
+    content: "";
+    background: gray;
+    height: 2px;
+    position: absolute;
+    width: 20%;
+    margin: 32px;
+    top: 27px;
+}
+
+#content h1:before {
+    content: "";
+    left: 0;
+}
+
+#content h1:after {
+    content: "";
+    right: 0;
+}
+
+.wrapper {
+    width: 342px;
+    height: 59px;
+    background: #eae7e7;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    box-shadow: inset 0 0 8px #000000;
+}
+
+.wrapper input {
+    width: 250px;
+    height: 58px;
+    background: transparent;
+    border: 0px;
+    outline: none;
+    font-size: 16px;
+    font-family: sans-serif, Arial;
+    color: #333;
+}
+
+.wrapper .fa {
+    font-size: 20px;
+    color: #333;
+}
+
+input[type="submit"] {
+    width: 368px;
+    height: 62px;
+    border-radius: 10px;
+    border: 0px;
+    outline: none;
+    background: #0AC986;
+    cursor: pointer;
+    color: white;
+    font-family: sans-serif, Arial;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 6px;
+}
+
+input[type="submit"]:hover {
+    background: -webkit-linear-gradient(top, #0AC986 0%, rgba(40, 255, 255, 1) 100%);
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    margin: 14px;
+    margin-top: 12px;
+    padding: 22px;
+    border: 0px solid black;
+
+    border-radius: 10px;
+    font-family: sans-serif, Arial;
+    font-size: 16px;
+    font-weight: bold;
+    background: #0AC986;
+}
+
+a:hover {
+    color: whitesmoke;
+    background: -webkit-linear-gradient(top, #0AC986 0%, rgba(40, 255, 255, 1) 100%);
+}
+
