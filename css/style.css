@@ -1,0 +1,103 @@
+.box {
+    height: 200px;
+    background-color: orange;
+}
+
+.navHeaderCollapse {
+    clear: right;
+}
+
+#header {
+    padding-top: 50px;
+}
+
+.myheader {
+    background: url("../arkham.jpg");
+}
+
+.myheader .col {
+    background: rgba(0, 0, 0, 0);
+    margin-top: 10%;
+    margin-right: 55%;
+    margin-left: 5%;
+    margin-bottom: 19%;
+
+}
+
+.myheader .col h1 {
+    text-align: center;
+    color: rgb(44, 190, 222);
+    padding-bottom: 10px;
+}
+
+.myheader .col p {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+.navbar-inner {
+    background: rgba(0, 0, 0, 1);
+}
+
+.game {
+
+    background-image: url("../darkBackground.jpg");
+    display: inline-block;
+    background-size: contain;
+    padding-bottom: 2%;
+}
+
+.game div h1 {
+    vertical-align: top;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+    margin-top: 40px;
+}
+
+.game div .row .col-img img {
+    padding-left: 20%;
+}
+
+.game div .row {
+    padding-top: 3%;
+}
+
+.col-des p {
+    padding-top: 4%;
+    color: white;
+    text-align: center;
+}
+
+.col-des h2 {
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.services {
+    background: url("../darkBackground-1.jpg")
+}
+
+.services-title {
+    padding-top: 2%;
+    color: white;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.services-content {
+    text-align: center;
+    color: white;
+    padding-bottom: 2%;
+}
+
+.mypanel {
+    background: rgb(2, 19, 30);
+    text-align: center;
+    color: white;
+    padding-top: 1%;
+    font-size: large;
+}
