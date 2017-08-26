@@ -10,6 +10,8 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="js/wow.min.js" rel="script">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -52,8 +54,9 @@
         <div class="row myheader">
             <!--<img src="arkham.jpg"/>-->
             <div class="jumbotron col">
-                <h1>The Gaming Portal</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                <h1 class="wow bounceInLeft" data-wow-delay="0.5s">The Gaming Portal</h1>
+                <p class="wow bounceInUp" data-wow-delay="1s">Lorem Ipsum is simply dummy text of the printing and
+                    typesetting
                     industry. Lorem Ipsum has been the industry's standard dummy text
                     ever since the 1500s, when an unknown printer took a galley of
                     type and scrambled it to make a type specimen book. It has
@@ -77,10 +80,10 @@
 
         <h1>Games</h1>
         <div class="row">
-            <div class="col-lg-4 col-md-4 col-img">
+            <div class="col-lg-4 col-md-4 col-img wow fadeInLeft" data-wow-delay="0.5s">
                 <img src="login_face.png"/>
             </div>
-            <div class="col-lg-8 col-md-8 col-des">
+            <div class="col-lg-8 col-md-8 col-des wow lightSpeedIn" data-wow-delay="1s">
                 <h2>Game 1</h2>
                 <p>Game 1 Description: It has
                     survived not only five centuries, but also the leap into
@@ -92,10 +95,10 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-4 col-md-4 col-img">
+            <div class="col-lg-4 col-md-4 col-img wow fadeInLeft" data-wow-delay="0.5s">
                 <img src="login_face.png"/>
             </div>
-            <div class="col-lg-8 col-md-8 col-des">
+            <div class="col-lg-8 col-md-8 col-des wow lightSpeedIn" data-wow-delay="1s">
                 <h2>Game 1</h2>
                 <p>Game 1 Description: It has
                     survived not only five centuries, but also the leap into
@@ -107,10 +110,10 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-4 col-md-4 col-img">
+            <div class="col-lg-4 col-md-4 col-img wow fadeInLeft" data-wow-delay="0.5s">
                 <img src="login_face.png"/>
             </div>
-            <div class="col-lg-8 col-md-8 col-des">
+            <div class="col-lg-8 col-md-8 col-des wow lightSpeedIn" data-wow-delay="1s">
                 <h2>Game 1</h2>
                 <p>Game 1 Description: It has
                     survived not only five centuries, but also the leap into
@@ -128,7 +131,7 @@
 <div class="services" id="services">
     <div class="container-fluid">
         <div class="row services-title">
-            <div class="col-md-12">
+            <div class="col-md-12 wow flipInX" data-wow-delay="0.8s">
                 <h1>Services</h1>
                 <p>Lorem Ipsum passages, and more recently
                     with desktop publishing software like Aldus PageMaker
@@ -138,17 +141,17 @@
 
 
         <div class="row">
-            <div class="col-lg-4 col-md-4 services-content">
+            <div class="col-lg-4 col-md-4 services-content wow flipInX" data-wow-delay="0.4s">
                 <img src="login_face.png">
                 <h3>Play</h3>
                 <p>Play world-renowned games</p>
             </div>
-            <div class="col-lg-4 col-md-4 services-content">
+            <div class="col-lg-4 col-md-4 services-content wow flipInX" data-wow-delay="0.8s">
                 <img src="login_face.png">
                 <h3>Compete</h3>
                 <p>Compete the best players in the world</p>
             </div>
-            <div class="col-lg-4 col-md-4 services-content">
+            <div class="col-lg-4 col-md-4 services-content wow flipInX" data-wow-delay="1.2s">
                 <img src="login_face.png">
                 <h3>Win</h3>
                 <p>Jump higher on the leaderboard</p>
@@ -167,6 +170,11 @@
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
 </body>
