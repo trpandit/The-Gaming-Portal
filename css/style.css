@@ -12,7 +12,7 @@
 }
 
 .myheader {
-    background: url("../arkham.jpg");
+    background: url("../img/arkham.jpg");
 }
 
 .myheader .col {
@@ -42,7 +42,7 @@
 
 .game {
 
-    background-image: url("../darkBackground.jpg");
+    background-image: url("../img/darkBackground.jpg");
     display: inline-block;
     background-size: contain;
     padding-bottom: 2%;
@@ -78,7 +78,7 @@
 }
 
 .services {
-    background: url("../darkBackground-1.jpg")
+    background: url("../img/darkBackground-1.jpg")
 }
 
 .services-title {
