@@ -1,5 +1,5 @@
 body {
-    background: #333 url("../bg.png");
+    background: #333 url("../img/bg.png");
     background-size: 00px 00px;
     background-repeat: no-repeat;
     margin-top: 10px;
@@ -9,7 +9,8 @@ body {
 
 img {
     margin-top: 0px;
-    margin-left: 700px;
+    padding-left: 40%;
+    padding-right: 40%;
 }
 
 .container {
