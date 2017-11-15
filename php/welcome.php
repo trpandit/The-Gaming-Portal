@@ -40,17 +40,17 @@ if (!isset($_SESSION["user"])) {
             </button>
             <div class="collapse navbar-collapse navHeaderCollapse">
                 <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Welcome <?= $_SESSION['user']; ?></a></li>
                     <li class="active"><a href="#">Home</a></li>
                     <li><a href="#games">Games</a></li>
-                    <li><a href="../HTML/login.html">Sign in</a></li>
-                    <li><a href="#">Developers</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="logout.php">Log Out</a></li>
+                    <li><a href="../HTML/developers.html">Developers</a></li>
                 </ul>
             </div>
 
-            <a class="navbar-brand" href="#">WELCOME</a>
-            <a class="navbar-brand" href="#"><?= $_SESSION['user']; ?></a>
-            <a class="navbar-brand" href="logout.php">Log Out</a>
+
+
+
 
         </div>
     </div>
