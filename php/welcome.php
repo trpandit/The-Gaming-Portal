@@ -62,17 +62,12 @@ if (!isset($_SESSION["user"])) {
             <div class="row myheader">
                 <div class="jumbotron col">
                     <h1 class="wow bounceInLeft" data-wow-delay="0.5s">The Gaming Portal</h1>
-                    <p class="wow bounceInUp" data-wow-delay="1s">Lorem Ipsum is simply dummy text of the printing and
-                        typesetting
-                        industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of
-                        type and scrambled it to make a type specimen book. It has
-                        survived not only five centuries, but also the leap into
-                        electronic typesetting, remaining essentially unchanged. It
-                        was popularised in the 1960s with the release of Letraset
-                        sheets containing Lorem Ipsum passages, and more recently
-                        with desktop publishing software like Aldus PageMaker
-                        including versions of Lorem Ipsum.
+                    <p class="wow bounceInUp" data-wow-delay="1s">Ladies and Gentlemen, hola!
+                        You might be tired of that lame assignment your boss gave you and want to spend some quality time,
+                        or you might just be procrastinating your submissions in school, or better yet, you might just be a
+                        bored guy sitting all day doing nothing. What if I tell you all the solutions to your problems  are here?
+                        If you are here already, Welcome to <b>The Gaming Portal</b>. So, bolster your guns, wear your armors and
+                        be a part of this highly competitive phenomenon! See you on the other side.
                     </p>
                 </div>
             </div>
@@ -86,49 +81,46 @@ if (!isset($_SESSION["user"])) {
         <div class="container-fluid">
 
             <h1>Games</h1>
-            <div class="row">
+            <div class="row" style="padding-left: 1%">
                 <div class="col-lg-4 col-md-4 col-img wow fadeInLeft" data-wow-delay="0.5s">
-                    <a href="../HTML/tank.html"><img src="../img/login_face.png"/></a>
+                    <a href="../HTML/tank.html"><img src="../img/tanks.jpg"/></a>
                 </div>
                 <div class="col-lg-8 col-md-8 col-des wow lightSpeedIn" data-wow-delay="1s">
-                    <h2>Game 1</h2>
-                    <p>Game 1 Description: It has
-                        survived not only five centuries, but also the leap into
-                        electronic typesetting, remaining essentially unchanged. It
-                        was popularised in the 1960s with the release of Letraset
-                        sheets containing Lorem Ipsum passages, and more recently
-                        with desktop publishing software like Aldus PageMaker
-                        including versions of Lorem Ipsum.</p>
+                    <h2>Tanks</h2>
+                    <p>You are a stranded tank in an island. Enemy tanks are coming to destroy you. You must
+                        go to safety. But the only way is hold all tanks before your troops arrive. Destroyed as many tanks as
+                        you can in 30 seconds. Go now before enemy tanks overpower you!</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-img wow fadeInLeft" data-wow-delay="0.5s">
-                    <a href="../HTML/dx.html"><img src="../img/login_face.png"/></a>
+                    <a href="#" onclick="alert('Please Log In !')"><img src="../img/dxball.gif"/></a>
                 </div>
                 <div class="col-lg-8 col-md-8 col-des wow lightSpeedIn" data-wow-delay="1s">
-                    <h2>Game 2</h2>
-                    <p>Game 1 Description: It has
-                        survived not only five centuries, but also the leap into
-                        electronic typesetting, remaining essentially unchanged. It
-                        was popularised in the 1960s with the release of Letraset
-                        sheets containing Lorem Ipsum passages, and more recently
-                        with desktop publishing software like Aldus PageMaker
-                        including versions of Lorem Ipsum.</p>
+                    <h2>DX-Ball</h2>
+                    <p>You have seen this game style before. DX Ball continues where Pong, Arkanoid and other games
+                        before it left off. A ball is bouncing around and breaking bricks. You bounce it back up
+                        to break more and if you let the ball pass your paddle, then you lose a life. Advance to
+                        the next level by breaking all the bricks.
+                        Of course it seems too simple to be addicting. But that is the beauty of DX Ball. The simplicity
+                        means you don't have to spend hours climbing a learning curve before it is fun. You can download
+                        the game and have fun playing immediately.</p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" style="padding-left: 3%">
                 <div class="col-lg-4 col-md-4 col-img wow fadeInLeft" data-wow-delay="0.5s">
-                    <a href="../HTML/Invaders.html"><img src="../img/login_face.png"/></a>
+                    <a href="#" onclick="alert('Please Log In !')"><img src="../img/invaders.jpg"/></a>
                 </div>
                 <div class="col-lg-8 col-md-8 col-des wow lightSpeedIn" data-wow-delay="1s">
-                    <h2>Game 3</h2>
-                    <p>Game 1 Description: It has
-                        survived not only five centuries, but also the leap into
-                        electronic typesetting, remaining essentially unchanged. It
-                        was popularised in the 1960s with the release of Letraset
-                        sheets containing Lorem Ipsum passages, and more recently
-                        with desktop publishing software like Aldus PageMaker
-                        including versions of Lorem Ipsum.</p>
+                    <h2>Invaders</h2>
+                    <p>Remember this old classic? Space Invaders is one of the most addicting games that was ever made.
+                        The idea is very simplistic. You are a space ship who must destroy the invading enemy space ships
+                        as they descend upon your little 8-bit world. Use the [SPACE] bar to fire your gun at them and
+                        blow each ship to pieces. Be careful though, because these ships fire back and as you deplete
+                        their numbers, the space invaders get faster and faster until the last remaining ship appears
+                        to move at near warp speed. To ensure you stay alive as long as possible, hide behind the green
+                        walls and develop and a run-and-gun mentality. Try to blast out whole rows of space invaders at
+                        once as it makes it easier to shoot into a crowd rather than pinpoint each individual ship.</p>
                 </div>
             </div>
         </div>
