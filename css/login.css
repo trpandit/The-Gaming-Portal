@@ -111,7 +111,7 @@ img {
     color: #333;
 }
 
-input[type="submit"] {
+button[type="submit"] {
     width: 368px;
     height: 62px;
     border-radius: 10px;
@@ -126,7 +126,7 @@ input[type="submit"] {
     margin-top: 6px;
 }
 
-input[type="submit"]:hover {
+button[type="submit"]:hover {
     background: -webkit-linear-gradient(top, #0AC986 0%, rgba(40, 255, 255, 1) 100%);
 }
 

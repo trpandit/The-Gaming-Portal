@@ -112,6 +112,8 @@ var bullets;
 var fireRate = 100;
 var nextFire = 0;
 
+var score = 0;
+
 function create() {
 
     game.world.setBounds(-1000, -1000, 2000, 2000);
@@ -257,6 +259,8 @@ function bulletHitEnemy(tank, bullet) {
 
     bullet.kill();
 
+    score += 10;
+
     var destroyed = enemies[tank.name].damage();
 
     if (destroyed) {
@@ -266,6 +270,10 @@ function bulletHitEnemy(tank, bullet) {
     }
 
 }
+
+setTimeout(function () {
+    window.location.href = "../php/tanks.php?scr=" + score;
+}, 30000);
 
 function fire() {
 

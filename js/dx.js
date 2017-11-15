@@ -53,6 +53,7 @@ function preload() {
 function create() {
     s = game.add.tileSprite(0, 0, 800, 600, 'back');
 
+
     game.physics.startSystem(Phaser.Physics.ARCADE);
     game.physics.arcade.checkCollision.down = false;
 
@@ -325,7 +326,9 @@ function ballHitBrick(ball, brick) {
     }
     if (count_alive == 0) {
         alert('You won the game, congratulations!');
-        location.reload();
+
+        location.href = "../php/dx.php?scr=" + score;
+
     }
 }
 
@@ -347,7 +350,9 @@ function ballLeaveScreen() {
     }
     else {
         alert('You lost, game over!');
-        location.reload();
+
+        location.href = "../php/dx.php?scr=" + score;
+        //location.reload();
     }
 }
 

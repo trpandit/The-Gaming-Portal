@@ -16,19 +16,24 @@
 
     <section id="content">
         <h1>Login Form </h1>
-        <div class="wrapper">
-            <i class="fa fa-user"></i>
-            <input type="text" id="username" placeholder="Username" required/>
-        </div>
 
-        <div class="wrapper">
-            <i class="fa fa-lock"></i>
-            <input type="password" id="password" placeholder="Password" required/>
-        </div>
+        <form action="../php/login_php.php" method="get">
 
-        <div>
-            <input type="submit" id="login" value="Log In"/>
-        </div>
+            <div class="wrapper">
+                <i class="fa fa-user"></i>
+                <input name="u" type="text" id="username">
+            </div>
+
+            <div class="wrapper">
+                <i class="fa fa-lock"></i>
+                <input name="p" type="password" id="password">
+            </div>
+
+            <div>
+                <button type="submit">Log In</button>
+            </div>
+
+        </form>
 
         <div>
             <a href="form.html" style="float:left">&nbsp&nbsp&nbspRegister User&nbsp</a>
@@ -37,6 +42,22 @@
 
     </section>
 </div>
+
+<script>
+    function valid() {
+        var user = document.getElementById("username").value;
+
+        if (user == "") {
+            alert("Enter The Username");
+        }
+
+        var pass = document.getElementById("password").value;
+
+        if (pass == "") {
+            alert("Enter Password");
+        }
+    }
+</script>
 </body>
 
 </html>

@@ -175,10 +175,12 @@ function collisionHandler(bullet, alien) {
         scoreText.text = scoreString + score;
 
         enemyBullets.callAll('kill', this);
-        stateText.text = " You Won, \n Click to restart";
+        stateText.text = " You Won !!";
         stateText.visible = true;
 
-        game.input.onTap.addOnce(restart, this);
+        location.href = "../php/invaders.php?scr=" + score;
+
+        //game.input.onTap.addOnce(restart, this);
     }
 
 }
@@ -201,10 +203,11 @@ function enemyHitsPlayer(player, bullet) {
         player.kill();
         enemyBullets.callAll('kill');
 
-        stateText.text = " GAME OVER \n Click to restart";
+        stateText.text = " GAME OVER ";
         stateText.visible = true;
 
-        game.input.onTap.addOnce(restart, this);
+        location.href = "../php/invaders.php?scr=" + score;
+        //game.input.onTap.addOnce(restart, this);
     }
 
 }
