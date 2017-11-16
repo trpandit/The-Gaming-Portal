@@ -94,7 +94,7 @@ if (!isset($_SESSION["user"])) {
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-img wow fadeInLeft" data-wow-delay="0.5s">
-                    <a href="#" onclick="alert('Please Log In !')"><img src="../img/dxball.gif"/></a>
+                    <a href="../HTML/dx.html"><img src="../img/dxball.gif"/></a>
                 </div>
                 <div class="col-lg-8 col-md-8 col-des wow lightSpeedIn" data-wow-delay="1s">
                     <h2>DX-Ball</h2>
@@ -109,7 +109,7 @@ if (!isset($_SESSION["user"])) {
             </div>
             <div class="row" style="padding-left: 3%">
                 <div class="col-lg-4 col-md-4 col-img wow fadeInLeft" data-wow-delay="0.5s">
-                    <a href="#" onclick="alert('Please Log In !')"><img src="../img/invaders.jpg"/></a>
+                    <a href="../HTML/Invaders.html"><img src="../img/invaders.jpg"/></a>
                 </div>
                 <div class="col-lg-8 col-md-8 col-des wow lightSpeedIn" data-wow-delay="1s">
                     <h2>Invaders</h2>
@@ -132,9 +132,6 @@ if (!isset($_SESSION["user"])) {
             <div class="row services-title">
                 <div class="col-md-12 wow flipInX" data-wow-delay="0.8s">
                     <h1>Services</h1>
-                    <p>Lorem Ipsum passages, and more recently
-                        with desktop publishing software like Aldus PageMaker
-                        including versions of Lorem Ipsum</p>
                 </div>
             </div>
 
